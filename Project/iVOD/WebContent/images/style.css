@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************** Global Style Start **************************/
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000000;
+	margin:0;
+	padding:0;
+}
+
+p {
+	font-size:12px;
+	padding:0;
+	margin:0;
+	color:#000000;
+}
+
+/***** Alignment style *****/
+br.clearall {
+	clear:both;
+}
+fieldset{ width:98%; margin:0 auto;text-align: center;border-top:medium none;padding-top: 25px;}
+.nodisplay {
+	display:none;
+}
+.topborder{
+ border-top:1px solid #dcdcdc;
+}
+
+/*********************** Header Style Start **************************/
+#wrapper {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	background:#ffffff;
+}
+.top-nav-bar {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 10pt;
+    height: 20px;
+    padding-top: 5px;
+    text-align: right;
+}
+.top-nav-links {
+    margin: 0 auto;
+    width: 980px;
+}
+.top-nav-bar {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 10pt;
+    text-align: right;
+}
+.top-nav-links ul {
+    display: inline;
+    list-style-type: none;
+}
+
+.top-nav-links ul li {
+    color: #FFFFFF;
+    display: inline;
+    font-size: 10pt;
+    margin-left: 20px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.header-secondary-gradient, .header {
+    background: linear-gradient(to bottom, #5E5E5E 0%, #414141 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.header, .subheader {
+    margin: 0 auto;
+    width: 980px;
+}
+.header {
+    overflow: hidden;
+}
+.header-secondary-gradient, .header {
+    background: linear-gradient(to bottom, #5E5E5E 0%, #414141 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.comcast-logo {
+    float: left;
+    height: 32px;
+    margin: 10px 46px 9px 12px;
+    text-indent: -9999px;
+    width: 90px;
+}
+.comcast-logo, .xfinity-logo{
+	 background-image: url("../images/sprite-header.png");
+    background-repeat: no-repeat;
+}
+.subheader-container {
+    border-bottom: 3px solid #D60024;
+    box-shadow: 0 -1px 0 1px rgba(183, 183, 183, 0.5) inset;
+    clear: both;
+    font-weight: bold;
+    height: 50px;
+    margin: 0 auto;
+}
+.subheader-container {
+    background: linear-gradient(to bottom, #FEFEFE 0%, #E5E5E5 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.tabDiv{width: 525px; float: left;}
+.tabDiv ul{list-style-type: none;display: inline;padding-left: 15px;float: left;margin: 0px;}
+.tabDiv ul li{list-style-type: none;display: inline;position:relative;padding: 18px 0px;float: left;border-style:solid;border-color: #000;border-width:0px 1px;font-size: 12px;}
+.tabDiv ul li ul { display:none; position:absolute;margin: 16px 0 0 -1px;padding: 0;z-index: 2;width:146px;} 
+.tabDiv ul li:hover ul{ display:block; background:white; height:auto;border-width: 1px;border-style: solid;border-color: black;} 
+.tabDiv ul li ul li{clear:both; border-style:none;padding: 4px 0;width: 100%;}
+.tabDiv ul li ul li:hover{background: lightblue;} 
+.tabDiv ul li a{text-decoration: none;color:black;padding: 16px 20px;}
+.tabDiv ul li.active{background-color: white;height: 17px;z-index: 10;}
+
+
+.header, .subheader {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.xfinity-logo {
+    background-position: 0 -33px;
+    float: left;
+    height: 38px;
+    margin: 21px 34px 20px 0;
+    text-indent: -9999px;
+    width: 114px;
+}
+
+
+
+
+#contact p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.785em;
+}
+/*********************** Header Style END **************************/
+
+
+/*********************** Mainconatiner Style Start **************************/
+#maincontaner {
+	width:100%;
+	margin:0;
+	padding:0;
+	background:#ffffff;
+}
+#main {
+	width:911px;
+	height:300px;
+	margin:70px auto 0 auto;
+	padding:0px 20px 20px 0px;
+	background:#ffffff;
+}
+div.container {color: #000000;font-size: 12px;}
+/************************Style for button start *************************/
+#footer-container {
+    background: url("../images/footer-repeat-bg.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+}
+
+#footer-links:after, #footer-share:after, #footer-general:after {
+    clear: both;
+    content: "";
+    display: block;
+    float: none;
+}
+#footer-share {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+}
+
+#footer-share li:first-child {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+}
+
+#footer-share a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 39px;
+}
+#footer-container a {
+    color: #117DD8;
+    text-decoration: none;
+}
+
+#footer-share li, #footer-comcast span {
+    background-image: url("../images/sprite-footer.png");
+    background-repeat: no-repeat;
+}
+#footer-links-container, #footer-links-container a {
+    color: #BBBBBB;
+    font-size: 11px;
+}
+#footer-links-container {
+    background: none repeat scroll 0 0 #2F2F2F;
+    border-top: 5px solid #C8001D;
+    padding: 28px 0 48px;
+}
+
+#navMenu{margin-left:780px;margin-top: 40px;}
+.navigationMenu li{color:#FFFFFF;font-size:13px; ;list-style:none;height:25px;}
+.navigationMenu li a{text-decoration:none; color:#FFFFFF;padding: 6px;line-height: 30px;}
+.navigationMenu ul{display:none;width:160px;position:absolute;padding: 0px;z-index: 999;
+border:1px solid #F6F6F6;background: none repeat scroll 0 0 #FFF;box-shadow: 2px 8px 7px #888888;height: auto;}
+.navigationMenu li a.open{border:1px solid #F6F6F6;background: none repeat scroll 0 0 #FFF;box-shadow: 2px 3px 7px #888888;color:#000000;}
+#navList li{padding:5px 10px 0px;}
+#navList li a{color:#000000;line-height: 20px;}
+#navList li:hover{background-color:#E5E5E5;}
+select{min-width: 180px;max-width: 180px;}
+
+
+
+.dropdown-check-list {
+  display: inline-block;
+}
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 5px 5px 10px;
+  border: 1px solid #ccc;
+  width: 155px;
+  color: black;
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: none repeat scroll 0 0 white;
+  position: absolute;
+  text-align: left;
+  width: 211px;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-right: 13px;
+}
+.dropdown-check-list ul.items li {
+  padding:5px;
+  list-style: none;
+}
+.dropdown-check-list ul.items li:hover {
+	cursor: pointer;
+	background-color:#E5E5E5;
+}
+.dropdown-check-list.visible .anchor {
+  color: #000000;
+}
+.dropdown-check-list.visible .items {
+  display: block;
+}
+ .validation_number{color:red;display:none;position: absolute;margin: 3px 10px;}
+ #responseMsg{display: none;margin:10px 0 20px;color:color: #5FB404;font-size:15px;}
+ .responseMsg1{display: none;margin:10px 0 20px;font-size:15px;color:red;}
+ ul.selectedMarkets > li{font-size:12px;}
+.okBtn{font-size: 15px !important; margin-left: 186px;text-align: center;width: 90px;}
+.ui-widget {
+    font-family: Verdana,Geneva,sans-serif !important;
+    font-size: 12px;
+}
+
+/*CSS for tooltip starts here*/
+.ui-tooltip {
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	font: bold 12px Verdana,Geneva,sans-serif;
+	box-shadow: 0 0 7px black;
+}
+.arrow {
+	width: 70px;
+	height: 16px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	bottom: -16px;
+}
+.arrow.top {
+	top: -16px;
+	bottom: auto;
+}
+.arrow.left {
+	left: 20%;
+}
+.arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	width: 25px;
+	height: 25px;
+	box-shadow: 6px 5px 9px -9px black;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.arrow.top:after {
+	bottom: -20px;
+	top: auto;
+}
+/*CSS for tooltip ends here*/
+.page_title_div{margin: 20px auto;width: 980px;}
+#page_title{
+	color: #3b3b3b;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 40px auto 36px;
+    position: relative;  
+}
+fieldset.formcontainer{text-align:left; width: 980px; border-color:grey; border-style:solid; background-color:#FFFFFF; margin-top:50px;box-shadow: 10px 10px 5px #888888; border-radius: 1em;}

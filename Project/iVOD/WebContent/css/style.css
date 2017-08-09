@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************** Global Style Start **************************/
+body {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#000000;
+	margin:0;
+	padding:0;
+}
+
+p {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:13px;
+	padding:0;
+	margin:0;
+	color:#000000;
+}
+
+/***** Alignment style *****/
+br.clearall {
+	clear:both;
+}
+fieldset{ width:98%; margin:0 auto;text-align: center;border-top:medium none;padding-top: 25px;}
+.nodisplay {
+	display:none;
+}
+.topborder{
+ border-top:1px solid #dcdcdc;
+}
+input[type="text"]{height: 20px;}
+
+/*********************** Header Style Start **************************/
+#wrapper {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	background:#ffffff;
+}
+.top-nav-bar {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 10pt;
+    height: 20px;
+    padding-top: 5px;
+    text-align: right;
+}
+.top-nav-links {
+    margin: 0 auto;
+    width: 980px;
+}
+.top-nav-bar {
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10pt;
+    text-align: right;
+}
+.top-nav-links ul {
+    display: inline;
+    list-style-type: none;
+}
+
+.top-nav-links ul li {
+    color: #FFFFFF;
+    display: inline;
+    font-size: 10pt;
+    margin-left: 20px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.header-secondary-gradient, .header {
+    background: linear-gradient(to bottom, #5E5E5E 0%, #414141 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.header, .subheader {
+    margin: 0 auto;
+    width: 980px;
+    height:50px;
+}
+.header {
+    overflow: hidden;
+}
+.header-secondary-gradient, .header {
+    background: linear-gradient(to bottom, #5E5E5E 0%, #414141 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.comcast-logo {
+    float: left;
+    height: 50px;
+    text-indent: -9999px;
+     width: 114px;
+     position: relative;
+     margin: 6px 0 0;
+}
+  
+.ivod-logo {
+    background-image: url("../images/ivod-logo.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 50px;
+    margin: 6px 34px 0 8px;
+    position: relative;
+    text-indent: -9999px;
+    width: 114px;
+ }  
+ 
+
+.comcast-logo {
+	 background-image: url("../images/comcast-logo.png");
+    background-repeat: no-repeat;
+}
+.subheader-container {
+    /*border-bottom: 3px solid #D60024;*/
+    box-shadow: 0 -1px 0 1px rgba(183, 183, 183, 0.5) inset;
+    clear: both;
+    font-weight: bold;
+    height: 59px;
+    margin: 0 auto;
+}
+.subheader-container {
+    background: linear-gradient(to bottom, #FEFEFE 0%, #e5e5e5 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.tabDiv{width: 525px; float: left;}
+.tabDiv ul{list-style-type: none;display: inline;padding-left: 15px;float: left;margin: 0px;}
+.tabDiv ul li{list-style-type: none;display: inline;position:relative;padding: 14px 0px;float: left;border-style:solid;border-color:#ffffff #d5d5d5 #eaeaea #d5d5d5;border-width:1px 1px;font-size: 13px;}
+.tabDiv ul li ul { display:none; position:absolute;margin: 14px 0 0 -1px;padding: 0;z-index: 2;width:208px;padding: 5px 0px;} 
+.tabDiv ul li.actv ul{ display:block; background:white; height:auto;border-width: 0px 1px 1px;border-style: solid;border-color: #d5d5d5;border-radius:0px 5px 5px !important;} 
+.tabDiv ul > li.actv{background: white;border-radius:8px 8px 0px 0px;border-color: #d5d5d5 #d5d5d5 #eaeaea #d5d5d5 !important;}
+.tabDiv ul > li.actv > a{color:#000000;text-decoration: underline;}
+.tabDiv ul li ul li{clear:both; border-style:none;padding: 10px 0;width: 100%;}
+.tabDiv ul li ul li:hover{background: #d5d5d5;border-radius:0px} 
+.tabDiv ul li a.header_link{background:url("../images/nav-arrow.png") no-repeat right center transparent;text-decoration: none;color:#1E69B5;padding: 16px 23px 15px 20px;margin-right: 10px;}
+.tabDiv ul li a{text-decoration: none;color:#1E69B5;padding: 16px 23px 16px 20px;margin-right: 10px;}
+.tabDiv ul li.active{background-color:linear-gradient(to bottom, #fdfdfd 0%, #d6d6d6 100%);height: 17px;z-index: 10;}
+
+
+.header, .subheader {
+    margin: 0 auto;
+    width: 980px;
+}
+
+/*.xfinity-logo {
+    background-position: 0 -33px;
+    float: left;
+    height: 38px;
+    margin: 21px 34px 20px 0;
+    text-indent: -9999px;
+    width: 114px;
+}*/
+
+
+
+
+#contact p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.785em;
+}
+/*********************** Header Style END **************************/
+
+
+/*********************** Mainconatiner Style Start **************************/
+#maincontaner {
+	width:100%;
+	margin:0;
+	padding:0;
+	background:#ffffff;
+}
+#main {
+	width:911px;
+	height:300px;
+	margin:70px auto 0 auto;
+	padding:0px 20px 20px 0px;
+	background:#ffffff;
+}
+div.container {color: #000000;font-size: 13px;}
+/************************Style for button start *************************/
+#footer-container {
+    background: url("../images/footer-repeat-bg.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+}
+
+#footer-links:after, #footer-share:after, #footer-general:after {
+    clear: both;
+    content: "";
+    display: block;
+    float: none;
+}
+#footer-share {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+}
+
+#footer-share li:first-child {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+}
+
+#footer-share a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 39px;
+}
+#footer-container a {
+    color: #117DD8;
+    text-decoration: none;
+}
+
+#footer-share li, #footer-comcast span {
+    background-image: url("../images/sprite-footer.png");
+    background-repeat: no-repeat;
+}
+#footer-links-container, #footer-links-container a {
+    color: #BBBBBB;
+    font-size: 11px;
+}
+#footer-links-container {
+    background: none repeat scroll 0 0 #2F2F2F;
+    border-top: 5px solid #C8001D;
+    padding: 28px 0 48px;
+}
+
+#navMenu{margin-left:780px;margin-top: 40px;}
+.navigationMenu li{color:#FFFFFF;font-size:13px; ;list-style:none;height:25px;}
+.navigationMenu li a{text-decoration:none; color:#FFFFFF;padding: 6px;line-height: 30px;}
+.navigationMenu ul{display:none;width:160px;position:absolute;padding: 0px;z-index: 999;
+border:1px solid #F6F6F6;background: none repeat scroll 0 0 #FFF;box-shadow: 2px 8px 7px #888888;height: auto;}
+.navigationMenu li a.open{border:1px solid #F6F6F6;background: none repeat scroll 0 0 #FFF;box-shadow: 2px 3px 7px #888888;color:#000000;}
+#navList li{padding:5px 10px 0px;}
+#navList li a{color:#000000;line-height: 20px;}
+#navList li:hover{background-color:#E5E5E5;}
+select{min-width: 168px;max-width: 168px;height: 22px;}
+select#account_list{min-width: 190px;}
+
+
+.dropdown-check-list {
+  display: inline-block;
+}
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px 5px;
+  border: 1px solid #ccc;
+  width: 155px;
+  color: black;
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 0px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: none repeat scroll 0 0 white;
+  position: absolute;
+  text-align: left;
+  width: 224px;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-right: 0px;
+}
+.dropdown-check-list ul.items li {
+  padding:5px;
+  list-style: none;
+}
+.dropdown-check-list ul.items li:hover {
+	cursor: pointer;
+	background-color:#E5E5E5;
+}
+.dropdown-check-list.visible .anchor {
+  color: #000000;
+}
+.dropdown-check-list.visible .items {
+  display: block;
+}
+ .validation_number{color:red;display:none;position: absolute;margin: 3px 10px;}
+ #responseMsg{display: none;margin:10px 360px 20px;color:color: #5FB404;font-size:15px;}
+ .responseMsg1{display: none;margin:10px 0 20px;font-size:15px;color:red;}
+ ul.selectedMarkets > li{font-size:12px;margin-top:10px;text-align:left;}
+.okBtn{font-size: 13px !important; margin-left: 186px;text-align: center;width: 68px;}
+.cancelBtn{font-size: 13px !important; text-align: center;width: 68px;}
+.ui-widget {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+/*CSS for tooltip starts here*/
+.ui-tooltip {
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	font: bold 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-shadow: 0 0 7px black;
+	margin:16px 16px 16px 16px;
+}
+.arrow {
+	width: 70px;
+	height: 16px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	bottom: -16px;
+}
+.arrow.top {
+	top: -16px;
+	bottom: auto;
+}
+.arrow.left {
+	left: 20%;
+}
+.arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	width: 25px;
+	height: 25px;
+	box-shadow: 6px 5px 9px -9px black;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.arrow.top:after {
+	bottom: -20px;
+	top: auto;
+}
+/*CSS for tooltip ends here*/
+/* .page_title_div{margin: 20px auto;width: 980px;}
+#page_title{
+	color: #3b3b3b;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 40px auto 36px;
+    position: relative;  
+}
+fieldset.formcontainer{text-align:left; width: 980px; border-color:grey; border-style:solid; background-color:#FFFFFF; margin-top:50px;box-shadow: 10px 10px 5px #888888; border-radius: 1em;}
+ */
+ 
+.fluid:before, .fluid:after {
+    content: "";
+    display: table;
+}
+.fluid:after {
+    clear: both;
+}
+.fluid {
+    box-sizing: border-box;
+    width: 100%;
+}
+.clear{clear: both;}
+/* === Widget and widget head elements === */
+
+.widget { background: #f7f7f7; border: 1px solid #cdcdcd; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; box-shadow: 0 2px 2px -2px #ccc; margin: 35px auto 0px; position: relative;width: 980px; }
+.widget > [class*="whead"] { margin-bottom:30px; border-bottom: 1px solid #cdcdcd; box-shadow: 0 1px 0 #fff; -webkit-box-shadow: 0 1px 0 #fff; -moz-box-shadow: 0 1px 0 #fff; text-shadow: 0 1px #fff; -webkit-border-top-right-radius: 3px; -webkit-border-top-left-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-topleft: 3px;  position: relative; }
+.whead a { color: #636363; }
+.widget > [class*="whead"] h6 { float: left; display: block; padding: 12px 14px 12px 14px; font-size: 12px; font-weight: bold;  }
+.widget .body { padding: 14px 16px; }
+
+.whead {  color: #636363;float:left;width:100%; min-height:39px;
+background: #f8f8f8;
+background: -moz-linear-gradient(top,  #f8f8f8 0%, #e8e8e8 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#e8e8e8));
+background: -webkit-linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+background: -o-linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+background: -ms-linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+background: linear-gradient(top,  #f8f8f8 0%,#e8e8e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e8e8e8',GradientType=0 );
+}
+
+.wheadLight {  color: #636363;
+background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #e4e4e4 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e4e4e4));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e4e4e4 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#e4e4e4 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#e4e4e4 100%);
+background: linear-gradient(top,  #ffffff 0%,#e4e4e4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e4e4',GradientType=0 );
+}
+
+.wheadLight2 {  color: #636363;
+background: #fafcfd;
+background: -moz-linear-gradient(top,  #fafcfd 0%, #eff1f3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafcfd), color-stop(100%,#eff1f3));
+background: -webkit-linear-gradient(top,  #fafcfd 0%,#eff1f3 100%);
+background: -o-linear-gradient(top,  #fafcfd 0%,#eff1f3 100%);
+background: -ms-linear-gradient(top,  #fafcfd 0%,#eff1f3 100%);
+background: linear-gradient(top,  #fafcfd 0%,#eff1f3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafcfd', endColorstr='#eff1f3',GradientType=0 );
+}
+
+.wheadLight3 {  color: #636363;
+background: rgb(255,255,255);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(237,237,237,1) 51%, rgba(239,239,239,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(239,239,239,1)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(237,237,237,1) 51%,rgba(239,239,239,1) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(237,237,237,1) 51%,rgba(239,239,239,1) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(237,237,237,1) 51%,rgba(239,239,239,1) 100%);
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(237,237,237,1) 51%,rgba(239,239,239,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 );}
+
+/* # Form styles
+================================================== */
+
+.formRow { border-bottom: 1px solid #ddd; border-top: 1px solid #fff; padding: 19px 16px; }
+.formRow:first-child { border-top: none; }
+.formRow input[type=text], .formRow input[type=password], /*.formRow*/ textarea { width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; font-size: 13px; color: #858585; box-shadow: 0 1px 0 #fff; -webkit-box-shadow: 0 1px 0 #fff; -moz-box-shadow: 0 1px 0 #fff; padding: 6px 7px; border: 1px solid #d7d7d7; display: inline-block; background: #fdfdfd; height: 26px; }
+textarea { height: auto; }
+.formRow  [class*="grid"] > label { float: left; display: block; padding-top: 1px; }
+.formRow label > span { margin-top: -2px; padding: 0; }
+.formRow label > img { float: left; margin: 5px 10px 0 0; }
